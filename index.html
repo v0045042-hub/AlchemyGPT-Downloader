@@ -1,41 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Download AlchemyGPT apk</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
   <style>
-  body{
-    background: white;
-    color: black;
-    font-family: 'Nunito', serif;
-  }
-  .btn-dl{
-    height: 50px;
-    width: 120px;
-    background: green;
-    border: 0px;
-    border-radius: 13px;
-    color: white;
-    font-weight: 800;
-    font-size: 18px;
-    transition: all 0.1s ease-in-out;
-  }
-  .btn-dl:hover{
-    transform: translateY(2px);
-  }
-  .btn-dl:active{
-    background: lime;
-    transform: translateY(-4px);
-  }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    p {
+      max-width: 600px;
+      line-height: 1.6;
+    }
+
+    .pwa-note {
+      color: lightgray;
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+
+    .pwa-note a {
+      color: lightgray;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .install-btn {
+      background-color: green;
+      color: #fff;
+      border: none;
+      padding: 15px 30px;
+      margin-top: 40px;
+      font-size: 1.1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .install-btn:hover {
+      transform: translateY(7px);
+      background-color: green;
+    }
+    .install-btn:active {
+      background-color: lime;
+      transform: translateY(-5px);
+    }
   </style>
 </head>
 <body>
-  <h1>
-    AlchemyGPT
-  </h1>
-  This is a pet project with the essence of a game where you create elements from fire, water, air, and earth, and then use the resulting elements to create more. The game is updated frequently, so there will be many exclusives. The game was created by AI, but elements are mostly added by the developers.
-  <br><br>&nbsp;&nbsp;&nbsp;<a href="base.apk" download><button class="btn-dl">Download</button></a><br><br>
-  <span style="color: lightgray;">Official website for installing the PWA game. If you want to find the web version of the site, follow the <a href="https://v0045042-hub.github.io/AlchemyGPT/">link</a>.</span>
+  <h1>AlchemyGPT</h1>
+  <p>
+    Welcome to <strong>AlchemyGPT</strong> — an exciting PWA game where you can create alchemical combinations, discover new elements, and explore a fascinating world of magic and science. 
+    The game is simple, engaging, and works completely in your browser or through installing the app.
+  </p>
+
+  <button class="install-btn">Install AlchemyGPT</button>
+
+  <div class="pwa-note">
+    This is a PWA game, If you search web version then <a href="https://v0045042-hub.github.io/AlchemyGPT/" target="_blank">click there</a>
+  </div>
 </body>
 </html>
